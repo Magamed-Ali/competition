@@ -1,0 +1,93 @@
+.sheet-list{
+    background: #FFFFFF;
+    border: 1.5px solid #DADADA;
+    border-radius: 24px;
+    padding: 50px 20px 40px;
+}
+.list{
+    border-bottom: 1px solid #DADADA;
+}
+
+.list-left{
+
+}
+
+.list-left h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0B090C;
+}
+
+.list-left h3::first-letter {
+
+
+    text-transform: capitalize;
+}
+
+.list-left h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0B090C;
+    opacity: 0.6;
+}
+
+.list-center p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3A3A40;
+}
+
+.list-center-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    font-size: 12px;
+}
+
+.list-center-bottom-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width: 100px;
+    background: #F2F2F2;
+    border-radius: 16px;
+}
+
+.list-center-bottom-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 10px;
+    background: #F2F2F2;
+    border-radius: 16px;
+    width: 200px;
+}
+
+.list-center-bottom img {
+    height: 15px;
+}
+
+.list-right{
+    width: 275px;
+    height: 150px;
+    border: 1.5px solid #DADADA;
+    border-radius: 24px;
+}
+
+.list-right h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-right img {
+    position: relative;
+    left: 20%;
+    margin: auto;
+    padding: 5px;
+}
